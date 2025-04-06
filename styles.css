@@ -1,0 +1,88 @@
+/* Resetowanie marginesów i wypełnienia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tło strony */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2197ff; /* Jasny niebieski */
+    color: #333; /* Ciemny tekst */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Nagłówki */
+h1, h2, h3 {
+    color: #000000; /* Kolor zielony */
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Linki */
+a {
+    color: #5eff00; /* Pomarańczowy */
+    text-decoration: none;
+    size: 50px;
+}
+
+a:hover {
+    color: #026602; /* Zielony przy najechaniu */
+}
+
+/* Sekcja główna */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Białe tło dla głównej sekcji */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+    border-radius: 8px;
+}
+
+/* Przyciski */
+button {
+    background-color: #4caf50; /* Zielony */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Ciemniejszy zielony */
+}
+
+/* Formularze */
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+    border-color: #4caf50; /* Zielona ramka przy fokusu */
+    outline: none;
+}
+
+/* Sekcja stopki */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #ff6347;
+}
+
+footer a:hover {
+    color: #32cd32;
+}
